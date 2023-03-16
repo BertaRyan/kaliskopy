@@ -1,0 +1,1121 @@
+/*======================================================
+font-family: 'Homemade Apple', cursive;
+
+
+
+======================FONTS ===========================*/
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*============================================================
+                         HOME     v
+============================================================ */
+
+.nav-logo {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 2em;
+
+}
+
+.navbar-toggler {
+    background: white;
+    margin-bottom: 10px;
+}
+
+.dropdown-menu .dropdown-item {
+    color: black;
+
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: black;
+    border-radius: 20%;
+    box-shadow: 2px 2px 50px 15px rgba(0, 0, 0, 0.303);
+
+}
+
+.navbar {
+    background: url(img/navbar-background.jpg);
+    background-position-y: 1%;
+}
+
+.navbar-nav {
+    background: black;
+    border-radius: 10px;
+}
+
+.nav-item a {
+    margin-left: 5px;
+    color: white;
+    font-size: 1.5em;
+    transition: .5s;
+}
+
+.nav-item a:hover {
+    color: white;
+    border-radius: 25%;
+    box-shadow: 2px 2px 50px 15px white;
+}
+
+.hero-title {
+    font-family: 'Homemade Apple', cursive;
+}
+
+.hero-container {
+    background: url(img/hero-background.PNG);
+    background-size: cover;
+}
+
+.hero-img {
+    width: 30%;
+    margin-right: 100px;
+}
+
+.hero-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hero-img img {
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0px 0px 400px 0px white;
+}
+
+.hero-content {
+    background: rgba(255, 255, 255, 0.52);
+    width: 40%;
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    margin-left: 40px;
+}
+
+.hero-content a button {
+    margin-top: 20px;
+    width: 80%;
+    transition: 1s;
+}
+
+.hero-content a button:hover {
+    margin-top: 20px;
+    color: black;
+    background: white;
+    width: 60%;
+    box-shadow: 0 0 30px 10px rgba(255, 166, 0, 0.712);
+}
+
+.examples {
+    padding-bottom: 50px;
+}
+
+.example-title {
+    font-family: 'Homemade Apple', cursive;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-shadow: 2px 2px 20px rgb(0, 0, 0);
+}
+
+.card {
+    padding: 15px;
+    background: url(img/navbar-background.jpg);
+    background-position-y: 35%;
+    background-position-x: 20%;
+}
+
+.card-body {
+    background: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card:nth-of-type(1) {
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+}
+
+.example-btn {
+    padding: 5px 15px;
+    background: black;
+    color: white;
+    width: 80%;
+    transition: 1s;
+}
+
+.example-btn:hover {
+    color: black;
+    background: white;
+    width: 60%;
+    box-shadow: 0 0 30px 10px rgba(255, 166, 0, 0.712);
+}
+
+.btn-main {
+    padding: 5px 15px;
+    background: black;
+    color: white;
+    margin-left: 850px;
+    transition: .5s;
+
+}
+
+.btn-main:hover {
+    padding: 5px 15px;
+    background: white;
+    color: black;
+    box-shadow: 0 0 30px 10px rgba(255, 166, 0, 0.712);
+
+
+}
+
+.blog-post-container .card {
+    width: 100%;
+}
+
+
+
+@media screen and (min-width:883px) and (max-width:1470px) {
+
+
+    .hero-img {
+
+
+        width: 30%;
+    }
+
+    .hero-content {
+        margin-top: 0px;
+    }
+
+    .card:nth-of-type(1) {
+        margin-left: 80px;
+    }
+
+    .btn-main {
+        margin-left: 600px;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:882px) {
+    .nav-logo {
+        width: 100px;
+    }
+
+    .navbar-brand {
+        font-size: 1em;
+    }
+
+
+    .hero-flex {
+        flex-direction: column;
+    }
+
+    .hero-img {
+        width: 50%;
+        margin-bottom: 20px;
+        margin-right: 70px;
+    }
+
+    .hero-content {
+        width: 100%;
+        margin-right: 100px;
+        padding: 10px;
+        margin-left: 0px;
+    }
+
+    .hero-content h4 {
+        font-size: 1em;
+    }
+
+    .hero-title {
+        font-size: 1.5em;
+    }
+
+    .card:nth-of-type(1) {
+        margin-left: 100px;
+    }
+
+    .btn-main {
+        margin-left: 150px;
+    }
+}
+
+
+@media screen and (min-width:351px) and (max-width:400px) {
+    .hero-flex {
+        display: block
+    }
+
+    .hero-img {
+        width: 50%;
+        margin-left: 100px;
+        margin-bottom: 20px;
+
+    }
+
+    .hero-content {
+        width: 100%;
+        margin-left: 0px;
+
+    }
+
+    .card:nth-of-type(1) {
+        margin-left: 50px;
+    }
+
+    .btn-main {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:350px) {
+    .hero-flex {
+        display: block
+    }
+
+    .hero-img {
+        width: 50%;
+        margin-left: 100px;
+        margin-bottom: 20px;
+
+    }
+
+    .hero-content {
+        width: 100%;
+        margin-left: 0px;
+
+    }
+
+    .card:nth-of-type(1) {
+        margin-left: 10px;
+    }
+
+    .btn-main {
+        margin-left: 50px;
+    }
+}
+
+/*=======================================================
+                        ABOUT  v
+ =========================================================*/
+
+.about-containers-container {
+    background: url(img/about-background.jpg), no-repeat;
+    background-size: cover;
+
+}
+
+.about-title {
+    font-family: 'Homemade Apple', cursive;
+}
+
+.about-container {
+    width: 60%;
+    margin: auto;
+    background: rgb(249, 240, 228);
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+
+
+.about-img-container {
+    width: 40%;
+    margin-left: 320px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+
+.about-img-container img {
+    width: 100%;
+    border-radius: 25%;
+}
+
+.about-content {
+    color: black;
+    margin: auto;
+    width: 60%;
+}
+
+.about-content p {
+    text-indent: 30px;
+    font-size: 1.3em;
+}
+
+@media screen and (min-width:961px) and (max-width:1455px) {
+    .about-img-container {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (min-width:664px) and (max-width:960px) {
+    .about-img-container {
+        margin-left: 100px;
+        width: 60%;
+    }
+}
+
+.about-content {
+    width: 80%;
+}
+
+@media screen and (min-width:451px) and (max-width:663px) {
+    .about-img-container {
+        margin-left: 50px;
+        width: 70%;
+    }
+}
+
+.about-content {
+    width: 80%;
+}
+
+@media screen and (min-width:0px) and (max-width:450px) {
+    .about-container {
+        width: 70%;
+    }
+
+    .about-img-container {
+        margin-left: 50px;
+        width: 70%;
+    }
+}
+
+.about-content {
+    width: 80%;
+    font-size: .8em;
+}
+
+@media screen and (min-width:246px) and (max-width:450px) {
+    .about-container {
+        width: 80%;
+    }
+
+    .about-img-container {
+        margin-left: 20px;
+        width: 80%;
+    }
+
+    .about-content {
+        width: 90%;
+        font-size: .8em;
+    }
+
+    .nav-logo {
+        width: 40px;
+
+    }
+
+    .navbar-brand {
+        font-size: .3em;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:245px) {
+    .about-container {
+        width: 80%;
+    }
+
+    .about-img-container {
+        margin-left: 20px;
+        width: 80%;
+    }
+
+    .about-content {
+        width: 90%;
+        font-size: .8em;
+    }
+
+    .nav-logo img {
+        width: 25px;
+
+    }
+
+    .navbar-brand {
+        font-size: .5em;
+        width: 50px;
+    }
+}
+
+/* ===================================================
+                    BLOG PAGE   v
+=======================================================*/
+.about-containers-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blog-post-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+
+}
+
+.blog-card {
+    flex-basis: 30%;
+    margin-bottom: 50px;
+}
+
+.blog-img {
+    width: 100%;
+}
+
+.blog-content {
+    background: rgb(249, 210, 170);
+    padding: 10px 0;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.blog-content button {
+    color: black;
+    background: white;
+}
+
+@media screen and (min-width:570px) and (max-width:1030px) {
+    .blog-card {
+        flex-basis: 45%;
+    }
+}
+
+@media screen and (min-width:277px) and (max-width:569px) {
+    .blog-card {
+        flex-basis: 80%;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:276px) {
+    .blog-card {
+        flex-basis: 90%;
+        margin-right: 5px;
+    }
+
+    .navbar-brand .nav-logo {
+        width: 40px;
+
+    }
+
+    .navbar-brand {
+        font-size: .1em;
+    }
+}
+
+/*
+====================================================
+                    HEALTH BLOG v
+ ===================================================*/
+.blog-img img {
+    width: 100%;
+}
+
+.blog-img-2 img {
+    width: 60%;
+}
+
+.health-blog {
+    margin: 0 auto;
+    width: 40%;
+    padding-bottom: 100px;
+}
+
+.health-blog p {
+    text-indent: 40px;
+}
+
+.text-wrap {
+    float: left;
+    margin-right: 20px;
+}
+
+.health-buttons {
+    margin-left: 175px;
+}
+
+.health-blog button {
+    margin-right: 5px;
+    margin-top: 30px;
+    padding: 5px 15px;
+    transition: .5s;
+}
+
+.health-blog button:hover {
+    background: white;
+    border: 2px solid red;
+    color: red;
+}
+
+@media screen and (min-width:958px) and (max-width:1244px) {
+    .health-blog {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:743px) and (max-width:957px) {
+    .health-blog {
+        width: 60%;
+    }
+
+    .health-buttons {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width:469px) and (max-width:742px) {
+    .health-blog {
+        width: 60%;
+    }
+
+    .health-buttons {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width:239px) and (max-width:468px) {
+    .health-blog {
+        width: 80%;
+    }
+
+    .health-buttons {
+        margin-left: 0px;
+        width: 100%;
+        margin: auto;
+
+    }
+
+}
+
+@media screen and (min-width:0px) and (max-width:238px) {
+    .health-blog {
+        width: 80%;
+    }
+
+    .health-buttons {
+        margin-left: 0px;
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .navbar-brand .nav-logo {
+        width: 50px;
+    }
+
+}
+
+/* ===================================================
+                MEDICATION BLOG     v
+======================================================*/
+
+.medication-blog {
+    width: 40%;
+    margin: auto;
+
+}
+
+.medication-img img {
+    width: 100%;
+}
+
+.medication-blog p {
+    text-indent: 30px;
+}
+
+
+
+.medication-blog ol {
+    margin: auto;
+    width: 50%;
+}
+
+.medication-buttons {
+    margin-left: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.medication-buttons button {
+    background: rgb(240, 188, 139);
+    color: black;
+    border: 1px solid black;
+    transition: .5s;
+}
+
+.medication-buttons button:hover {
+    background: white;
+    color: black;
+}
+
+@media screen and (min-width:818px) and (max-width:1355px) {
+    .medication-blog {
+        width: 60%;
+    }
+
+    .medication-buttons {
+        background: red;
+        margin-left: 150px;
+    }
+}
+
+@media screen and (min-width:479px) and (max-width:817px) {
+    .medication-blog {
+        width: 80%;
+    }
+
+    .medication-buttons {
+        background: red;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width:291px) and (max-width:478px) {
+    .medication-blog {
+        width: 80%;
+    }
+
+    .medication-buttons {
+        background: red;
+        margin-left: 0px;
+    }
+
+    .medication-blog ol {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:290px) {
+    .medication-blog {
+        width: 80%;
+    }
+
+    .medication-buttons {
+        background: red;
+        margin-left: 0px;
+    }
+
+    .medication-blog ol {
+        width: 100%;
+        font-size: .5em;
+    }
+}
+
+/*==============================================================
+                    COFFEE BENEFITS v
+ =========================================================*/
+
+.coffee-benefits-container {
+    width: 40%;
+
+    margin: auto;
+}
+
+.coffee-img img {
+    width: 100%;
+}
+
+.coffee-benefits-container p {
+    text-indent: 30px;
+}
+
+.coffee-blog-img img {
+    width: 40%;
+}
+
+.text-wrap-right {
+    float: right;
+    margin-left: 20px;
+}
+
+.coffee-img-2 img {
+    width: 60%;
+}
+
+.buttons-container {
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.buttons-container button {
+    background: white;
+    color: burlywood;
+    border: 2px solid burlywood;
+}
+
+.buttons-container button:hover {
+    background: burlywood;
+    color: white;
+    border: 2px solid burlywood;
+}
+
+@media screen and (min-width:701px) and (max-width:962px) {
+    .coffee-benefits-container {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:700px) {
+    .coffee-benefits-container {
+        width: 80%;
+    }
+
+    .buttons-container {
+        margin-left: 0px;
+    }
+}
+
+/*========================================================== 
+                    EMAIL  v
+==========================================================*/
+.email-container .row {
+    margin: auto;
+}
+
+.email-container a {
+    color: black;
+    text-decoration: none;
+}
+
+.email-container a h2 {
+    margin-top: 10px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.email-card {
+    flex-basis: 33%;
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+
+.email-img img {
+    width: 400px;
+    height: 300px
+}
+
+@media screen and (min-width:0px) and (max-width:390px) {
+    .email-container {
+        width: 0%;
+        margin: auto;
+    }
+
+    .email-card {
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:390px) {
+    .email-container {
+        background: red;
+        width: 0%;
+        margin: auto;
+    }
+
+    .email-img img {
+        width: 200px;
+        height: auto;
+    }
+}
+
+/*=========================================================
+                    EMAIL-1    v
+======================================================*/
+
+.email-1 {
+    margin: 100px auto;
+
+    width: 40%;
+}
+
+.email-buttons {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.email-buttons button {
+    padding: 5px 10px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    margin-right: 10px;
+    transition: .5s;
+}
+
+.email-buttons button:hover {
+    background: black;
+    color: white;
+    border: 1px solid black;
+}
+
+@media screen and (min-width:351px) and (max-width:1051px) {
+    .email-1 {
+        width: 70%;
+    }
+
+    .email-buttons {
+        margin-left: 00px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:350px) {
+    .email-1 {
+        width: 70%;
+    }
+
+    .email-buttons {
+        margin-left: 00px;
+    }
+
+    .email-buttons button {
+        margin-left: 00px;
+        margin-bottom: 10px;
+    }
+}
+
+/*======================================================
+                    EMAIL-2 v
+ =====================================================*/
+
+.email-2 {
+
+    width: 40%;
+    margin: 200px auto;
+}
+
+@media screen and (min-with:301px) and (width:1095px) {
+    .email-2 {
+        width: 80%;
+    }
+
+    .email-buttons {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:600px) {
+    .email-2 {
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    .email-buttons button {
+        margin-left: 0px;
+        margin-bottom: 10px;
+
+    }
+}
+
+/*=====================================================
+                    EMAIL-3  v
+  =======================================================*/
+
+.email-3 {
+    width: 40%;
+    margin: 100px auto;
+}
+
+@media screen and (min-width:0px) and (max-width:1082px) {
+    .email-3 {
+        width: 80%;
+    }
+}
+
+
+/*========================================================
+                        EMAIL-4 V 
+ =========================================================*/
+
+.email-4 {
+    width: 40%;
+    margin: 100px auto;
+}
+
+@media screen and (min-width:0px) and (max-width:950px) {
+    .email-4 {
+        width: 80%;
+    }
+}
+
+/*==========================================================
+                            CONTACT 
+ ==========================================================*/
+
+.form-container {
+    background: url(img/contact-background.jpg);
+}
+
+.contact-title {
+    color: white;
+}
+
+.form-text {
+    color: white;
+}
+
+.list-container {
+    background: rgba(0, 0, 0, 0.572);
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+}
+
+.form {
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.573);
+    margin: auto;
+    width: 40%;
+}
+
+.contact-button {
+    background: none;
+    border: 2px solid white;
+    margin-left: 170px;
+    transition: .5s;
+}
+
+.contact-button:hover {
+    background: white;
+    border: 2px solid black;
+    color: black;
+    margin-left: 170px;
+}
+
+.list-container {
+    color: white;
+    font-size: .7em;
+}
+
+@media screen and (min-width:490px) and (max-width:996px) {
+    .form {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:261px) and (max-width:489px) {
+    .form {
+        width: 90%;
+    }
+
+    .contact-button {
+        margin-left: 100px;
+    }
+
+    .list-container {
+        width: 80%;
+    }
+
+    .list-container h2 {
+        font-size: 1.3em;
+    }
+
+    .nav-logo {
+        width: 100px;
+    }
+
+    .navbar-brand {
+        font-size: 1em;
+    }
+
+    .contact-button {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:260px) {
+    .form {
+        width: 90%;
+    }
+
+    .contact-button {
+        margin-left: 100px;
+    }
+
+    .list-container {
+        width: 90%;
+    }
+
+    .list-container h2 {
+        font-size: 1.3em;
+    }
+
+    .nav-logo {
+        width: 100px;
+    }
+
+    .navbar-brand {
+        font-size: 1em;
+    }
+
+    .contact-button {
+        margin-left: 0px;
+    }
+}
+
+/*===============================================================
+                            ARTICLES 
+ ===============================================================*/
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.video-container video {
+    border-radius: 25px;
+}
+
+@media screen and (min-width:452px) and (max-width:530px) {
+    .video-container video {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:451px) {
+    .video-container video {
+        width: 200px;
+    }
+}
